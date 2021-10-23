@@ -5,7 +5,7 @@ let number = document.getElementById("number"),
     reset = document.getElementById("reset"),
     inc = document.getElementById("inc"),
     save = document.getElementById("save"),
-    count = localStorage.getItem("counter") || 0;
+    count = 0;
 
 
 
@@ -47,4 +47,4 @@ save.addEventListener("click", function () {
 })
 
 // Make it appear after reload
-number.innerHTML = localStorage.getItem("counter")
+number.innerHTML = localStorage.getItem("counter") || 0 ;
