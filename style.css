@@ -91,11 +91,16 @@ body {
     color: white; 
 }
 
-.button:nth-of-type(4){
+.save{
+    width: 100%;
+}
+
+.save .button.grey{
+    width: 100%;
     border-color: #adadad ;
     color: #adadad;
 }
-.button:nth-of-type(4):hover{
+.save .button.grey:hover{
     background-color: #adadad;
     color: white; 
 }
