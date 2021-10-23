@@ -5,7 +5,7 @@ let number = document.getElementById("number"),
     reset = document.getElementById("reset"),
     inc = document.getElementById("inc"),
     save = document.getElementById("save"),
-    count = 0;
+    count = localStorage.getItem("counter");
 
 
 
